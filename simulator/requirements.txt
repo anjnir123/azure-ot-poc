@@ -1,0 +1,8 @@
+# Azure IoT Device SDK - for sending messages to IoT Hub
+azure-iot-device==2.12.0
+
+# Azure Key Vault SDK - for reading secrets securely
+azure-keyvault-secrets==4.7.0
+
+# Azure Identity SDK - for authenticating to Azure (uses your 'az login' session)
+azure-identity==1.15.0
