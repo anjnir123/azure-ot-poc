@@ -21,7 +21,19 @@ Detects anomalies (like high pressure)
 Stores processed data in Blob Storage
 Keeps secrets secure using Key Vault
 
+### How to run
+cd terraform
+terraform init
+terraform apply
+Register IoT device
+Add connection string to Key Vault
+Start Stream Analytics job
+Run Python simulator
+
 ### Output
+Processed data stored in Blob Storage
+Alerts stored separately for high-pressure events
 This setup shows how OT systems can safely send data to the cloud without exposing them to security risks.
+
 ---
 
